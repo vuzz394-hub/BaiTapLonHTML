@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ca Sĩ - Đẳng Thập Ma Quân</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><i class="fa-solid fa-compact-disc logo-icon"></i><span>SoundWave</span></div>
+    <nav class="nav-menu">
+      <a href="../index.html" class="active">Trang chủ</a>
+      <a href="../search/search.html">Tìm kiếm</a>
+      <a href="../song-detail/song.html">Chi tiết bài hát</a>
+      <a href="../artist/artist.html">Ca sĩ</a>
+      <a href="../composer/composer.html">Tác giả</a>
+      <a href="../album/album.html">Album</a>
+      <a href="../detail/detail.html">Tin tức</a>
+      <a href="../about-us/about-us.html">Về chúng tôi</a>
+      <a href="../contact/contact.html">Liên hệ</a>
+      <a href="../policy/policy.html">Điều khoản</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Profile Nghệ Sĩ -->
+    <div style="display: flex; gap: 2rem; background: var(--bg-card); padding: 2rem; border-radius: 12px; align-items: center; margin-bottom: 2rem; flex-wrap: wrap;">
+        <img src="../img/image.png" alt="Đẳng Thập Ma Quân" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; object-position: center top; border: 4px solid var(--accent-purple);">
+      <div>
+        <h1 style="font-size: 2.2rem;">Đẳng Thập Ma Quân (等什么君)</h1>
+        <p style="color: var(--text-secondary); margin: 0.5rem 0;">Ca sĩ thể loại Cổ Phong / Trung Hoa Phong hàng đầu.</p>
+        <p style="color: var(--text-secondary); margin-bottom: 1rem;"><i class="fa-solid fa-user-group"></i> 5.800.000 Người theo dõi</p>
+        <button class="btn btn-primary">+ Theo dõi nghệ sĩ</button>
+      </div>
+    </div>
+
+    <!-- Danh sách ca khúc của Ca sĩ -->
+    <h3 class="section-title">Danh Sách Ca Khúc Nổi Bật</h3>
+    <div style="background: var(--bg-card); border-radius: 8px; overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; text-align: left;">
+        <thead>
+          <tr style="border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
+            <th style="padding: 1rem;">STT</th>
+            <th style="padding: 1rem;">Tên bài hát</th>
+            <th style="padding: 1rem;">Lượt nghe</th>
+            <th style="padding: 1rem;">Thời lượng</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid var(--border-color);">
+            <td style="padding: 1rem;">01</td>
+            <td style="padding: 1rem;"><a href="song-detail.html" style="font-weight: 600;">Hán Giang Tuyết</a></td>
+            <td style="padding: 1rem; color: var(--text-secondary);">2.45M</td>
+            <td style="padding: 1rem; color: var(--text-secondary);">03:50</td>
+          </tr>
+          <tr style="border-bottom: 1px solid var(--border-color);">
+            <td style="padding: 1rem;">02</td>
+            <td style="padding: 1rem;"><a href="song-detail.html" style="font-weight: 600;">Quạn Hùng Khởi</a></td>
+            <td style="padding: 1rem; color: var(--text-secondary);">1.80M</td>
+            <td style="padding: 1rem; color: var(--text-secondary);">04:12</td>
+          </tr>
+          <tr style="border-bottom: 1px solid var(--border-color);">
+            <td style="padding: 1rem;">03</td>
+            <td style="padding: 1rem;"><a href="song-detail.html" style="font-weight: 600;">Quy Tầm</a></td>
+            <td style="padding: 1rem; color: var(--text-secondary);">1.20M</td>
+            <td style="padding: 1rem; color: var(--text-secondary);">03:30</td>
+          </tr>
+          <tr>
+            <td style="padding: 1rem;">04</td>
+            <td style="padding: 1rem;"><a href="song-detail.html" style="font-weight: 600;">Phong Hoa Tuyết Nguyệt</a></td>
+            <td style="padding: 1rem; color: var(--text-secondary);">950K</td>
+            <td style="padding: 1rem; color: var(--text-secondary);">03:45</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container copyright"><p>&copy; 2026 SoundWave. All rights reserved.</p></div>
+  </footer>
+
+  <div class="audio-player">
+    <div class="player-left"><img src="https://picsum.photos/seed/deng1/60"><div><div class="player-title">Hán Giang Tuyết</div><div class="player-artist">Đẳng Thập Ma Quân</div></div></div>
+    <div class="player-center"><div class="player-controls"><button class="ctrl-btn"><i class="fa-solid fa-play"></i></button></div></div>
+    <div class="player-right"><i class="fa-solid fa-volume-high"></i></div>
+  </div>
+</body>
+</html>

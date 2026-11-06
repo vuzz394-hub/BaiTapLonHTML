@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên Hệ - SoundWave</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><i class="fa-solid fa-compact-disc logo-icon"></i><span>SoundWave</span></div>
+    <nav class="nav-menu">
+      <a href="../index.html" class="active">Trang chủ</a>
+      <a href="../search/search.html">Tìm kiếm</a>
+      <a href="../song-detail/song.html">Chi tiết bài hát</a>
+      <a href="../artist/artist.html">Ca sĩ</a>
+      <a href="../composer/composer.html">Tác giả</a>
+      <a href="../album/album.html">Album</a>
+      <a href="../detail/detail.html">Tin tức</a>
+      <a href="../about-us/about-us.html">Về chúng tôi</a>
+      <a href="../contact/contact.html">Liên hệ</a>
+      <a href="../policy/policy.html">Điều khoản</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2 class="section-title">Liên Hệ & Góp Ý</h2>
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+      <!-- Form liên hệ -->
+      <form style="flex: 1; min-width: 300px; background: var(--bg-card); padding: 1.5rem; border-radius: 10px;">
+        <div style="margin-bottom: 1rem;">
+          <label style="display: block; margin-bottom: 0.5rem;">Họ và Tên</label>
+          <input type="text" style="width: 100%; padding: 0.75rem; background: var(--bg-main); border: 1px solid var(--border-color); color: white; border-radius: 6px;">
+        </div>
+        <div style="margin-bottom: 1rem;">
+          <label style="display: block; margin-bottom: 0.5rem;">Email</label>
+          <input type="email" style="width: 100%; padding: 0.75rem; background: var(--bg-main); border: 1px solid var(--border-color); color: white; border-radius: 6px;">
+        </div>
+        <div style="margin-bottom: 1rem;">
+          <label style="display: block; margin-bottom: 0.5rem;">Nội dung</label>
+          <textarea rows="4" style="width: 100%; padding: 0.75rem; background: var(--bg-main); border: 1px solid var(--border-color); color: white; border-radius: 6px;"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary">Gửi Thông Tin</button>
+      </form>
+
+      <!-- Bản đồ / Thông tin -->
+      <div style="flex: 1; min-width: 300px; background: var(--bg-card); padding: 1.5rem; border-radius: 10px;">
+        <h4>Trụ Sở Studio</h4>
+        <p style="color: var(--text-secondary); margin: 0.5rem 0 1.5rem;">Hà Nội, Việt Nam</p>
+        <div style="width: 100%; height: 200px; background: #272a3c; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: var(--text-secondary);">
+          [ Bản Đồ Google Maps Studio ]
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container copyright"><p>&copy; 2026 SoundWave. All rights reserved.</p></div>
+  </footer>
+
+  <div class="audio-player">
+    <div class="player-left"><img src="https://picsum.photos/seed/deng1/60"><div><div class="player-title">Hán Giang Tuyết</div><div class="player-artist">Đẳng Thập Ma Quân</div></div></div>
+    <div class="player-center"><div class="player-controls"><button class="ctrl-btn"><i class="fa-solid fa-play"></i></button></div></div>
+    <div class="player-right"><i class="fa-solid fa-volume-high"></i></div>
+  </div>
+</body>
+</html>
